@@ -4,29 +4,100 @@
 GENERAL
 ==================
 */
-    
+
     html {
         font-family: 'Open Sans', 'Raleway', sans-serif;
         box-sizing: border-box;
         overflow: auto;
     }
-    
+
     .o-s {
         font-family: 'Open Sans', sans-serif;
     }
-    
+
     .rale {
         font-family: 'Raleway', sans-serif;
     }
-    
+
     .bold-text {
         font-weight: bolder;
     }
-    
+
     .white {
         color: #fff;
     }
-    
+
     .gray {
         color: #333;
     }
+
+    .bg-yellow{
+        background-color: #F7B617;
+    }
+
+    /*seccion presentacion*/
+    .hero{
+      background-image: url("../images/taxi.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+    .registro{
+      padding: 30px 20px 30px 40px;
+      margin-top: 30%;
+    }
+    .registro h2{
+      font-size: 3.8rem;
+      font-weight: 600;
+    }
+    .registro h3{
+      display: inline-block;
+      margin-right: 20px;
+      font-weight: 600;
+      /*margin-bottom: 20px;*/
+    }
+
+    .formulario{
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      padding-left: 15px;
+      margin-top: 20px;
+    }
+    .formulario .form-control{
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      border-bottom: 1px solid white;
+      width: 80%!important;
+    }
+    .formulario.form-control:focus, .formulario.form.group:focus{
+      border-bottom: 1px solid white;
+      outline: 0;
+      box-shadow: none;
+    }
+    .boton{
+      margin-top: 60px;
+      font-weight: 800;
+      font-size: 2.3rem;
+    }
+
+  @media (min-width:600px){
+    .hero{
+      background-position-y: -1325px;
+    }
+    .registro{
+      margin-top: 7%;
+    }
+    .logo-blanco{
+      width: 100px;
+    }
+    .boton{
+      margin-top: 30px;
+      font-size: 2rem;
+    }
+    .registro h2{
+      margin-bottom: 20px;
+      font-size: 3.5rem;
+    }
+  }
