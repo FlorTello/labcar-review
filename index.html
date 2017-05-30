@@ -11,6 +11,35 @@
   <title>Proyecto Final Sprint 4 LabCar</title>
 </head>
 <body>
+  <section class="section-tarifa section white bg-yellow o-s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="rale">Tarifas</h3>
+          <p >Consulta de tarifas LabCar aquí</p><br>
+          <form action="" class="text-center">
+            <div class="form-group text-left">
+                <i class="glyphicon glyphicon-record"></i>
+                <input type="text" class="form-control bg-yellow white" id="text-partida" placeholder="Ingrese su punto de partida" required="">
+            </div><br>
+            <div class="form-group text-left">
+                <i class="glyphicon glyphicon-send"></i>
+                <input type="text" class="form-control bg-yellow white" id="text-llegada" placeholder="Ingrese su llegada" required="" >
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default text-uppercase rale" id ="calcular">¡trazar ruta!</button>
+            </div>
+            <h2 class="gray" id="tarifa">jjgj</h2>
+          </form>
+        </div>
+      <div class="col-lg-5  col-lg-offset-2 hidden-xs border-white">
+          <div class="map" id = "map">
+              <!-- Aqui se incluye el API de Google Maps -->
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
