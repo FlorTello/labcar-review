@@ -4,29 +4,32 @@
 GENERAL
 ==================
 */
-    
+
     html {
         font-family: 'Open Sans', 'Raleway', sans-serif;
         box-sizing: border-box;
         overflow: auto;
     }
-    
+
     .o-s {
         font-family: 'Open Sans', sans-serif;
     }
-    
+
     .rale {
         font-family: 'Raleway', sans-serif;
     }
-    
+
     .bold-text {
         font-weight: bolder;
     }
-    
+
     .white {
         color: #fff;
     }
-    
+
     .gray {
         color: #333;
+    }
+    .general-informacion{
+      background-color: #F7B617;
     }
