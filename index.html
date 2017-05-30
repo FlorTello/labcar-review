@@ -9,12 +9,37 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" href="assets/images/icon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Proyecto Final Sprint 4 LabCar</title>
 </head>
 
 <body>
-    <header class="hero container-fluid rale">
+  <header>
+    <nav class="navbar-default" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="div-menu col-lg-4">
+            <div class="navbar-header size-height">
+              <span  class="mr-15 navbar-toggle pull-left gray glyphicon glyphicon-menu-hamburger hamburger-icon" data-toggle="collapse" data-target="#example-navbar-collapse"></span>
+              <div class="col-xs-5 col-xs-offset-0 ">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="collapse navbar-collapse navbar-right " id="example-navbar-collapse">
+              <ul class="nav navbar-nav o-s">
+                <li><a href="#">Viaja</a></li>
+                <li><a href="#">Conduce</a></li>
+                <li><a href="#">Inicia Sesión</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="hero container-fluid rale">
         <div class="row">
             <div class="registro white bg-yellow col-md-5 pull-right">
                 <h2 class="hidden-xs hidden-sm">Disfruta del viaje <br>Eres dueño de tu tiempo</h2>
@@ -38,8 +63,9 @@
                 <button type="button" class="btn btn-default boton btn-lg visible-xs" name="button">Descarga el app</button>
             </div>
         </div>
-    </header>
-    <section class=" general-informacion  white">
+      </section>
+  </header>
+    <section class=" general-informacion  white bg-yellow">
         <div class="container">
             <div class="row">
                 <div class="borde col-md-10 col-md-pull-1">
@@ -164,6 +190,7 @@
     <script type="text/javascript" src="assets/js/app.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGmVPurrDH6DdlnPpfLqlnaIjflWaW5Z0&callback=initMap&libraries=places">
     </script>
+
 </body>
 
 </html>

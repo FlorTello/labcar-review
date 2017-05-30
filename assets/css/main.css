@@ -4,42 +4,42 @@
 GENERAL
 ==================
 */
-    
+
     html {
         font-family: 'Open Sans', 'Raleway', sans-serif;
         box-sizing: border-box;
         overflow: auto;
     }
-    
+
     .o-s {
         font-family: 'Open Sans', sans-serif;
     }
-    
+
     .rale {
         font-family: 'Raleway', sans-serif;
     }
-    
+
     .bold-text {
         font-weight: bolder;
     }
-    
+
     .white {
         color: #fff;
     }
-    
+
     .gray {
         color: #333;
     }
-    
+
     .bg-yellow {
         background-color: #F7B617;
     }
-    
+
     .border-white {
         padding: 10px;
         border: solid 1px #fff;
     }
-    
+
     .section {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -49,36 +49,56 @@ GENERAL
 NAVBAR
 ==================
 */
+header nav .div-menu{
+  height: 65px;
+}
+.mr-15{
+  margin-left: 15px;
+}
+.flex-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger-icon{
+  font-size: 21px;
+  border:0;
+  margin-left: 10px;
+}
+header nav ul li{
+  margin: 15px 0;
+}
+
     /*
 ==================
 HERO
 ==================
 */
-    
+
     .hero {
         background-image: url("../images/taxi.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
     }
-    
+
     .registro {
         padding: 30px 20px 30px 40px;
         margin-top: 30%;
     }
-    
+
     .registro h2 {
         font-size: 3.8rem;
         font-weight: 600;
     }
-    
+
     .registro h3 {
         display: inline-block;
         margin-right: 20px;
         font-weight: 600;
         /*margin-bottom: 20px;*/
     }
-    
+
     .formulario {
         display: flex;
         align-items: flex-end;
@@ -86,7 +106,7 @@ HERO
         padding-left: 15px;
         margin-top: 20px;
     }
-    
+
     .formulario .form-control {
         border: none;
         box-shadow: none;
@@ -94,14 +114,14 @@ HERO
         border-bottom: 1px solid white;
         width: 80%!important;
     }
-    
+
     .formulario.form-control:focus,
     .formulario.form.group:focus {
         border-bottom: 1px solid white;
         outline: 0;
         box-shadow: none;
     }
-    
+
     .boton {
         margin-top: 60px;
         font-weight: 800;
@@ -112,53 +132,53 @@ HERO
 CONDUCE
 ==================
 */
-    
+
     .general-informacion {
-        background-color: #F7B617;
         padding: 10px;
+        font-size: 1.7rem;
     }
-    
+
     .borde {
         border: 1px solid #fff;
-        margin: 30px;
+        margin: 30px 0;
     }
-    
+
     .celular {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    
+
     .text-inicial {
-        padding: 30px;
+        padding: 15px;
     }
     /*
 ==================
 CONDUCE
 ==================
 */
-    
+
     .conduce {
         background-image: url("../images/conduce.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 65vh;
     }
-    
+
     .conduce-info {
         background-color: rgba(0, 0, 0, 0.5);
         height: 65vh;
         padding: 80px 0 20px 35px;
     }
-    
+
     .conduce h2 {
         font-size: 2.5rem;
     }
-    
+
     .conduce p {
         font-size: 1.9rem;
         margin-bottom: 20px;
     }
-    
+
     .conduce button {
         padding: 12px 20px;
     }
@@ -167,27 +187,27 @@ CONDUCE
 TARIFA
 ==================
 */
-    
+
     .section-tarifa input {
         width: 80%;
         display: inline-block;
         border-color: #fff;
     }
-    
+
     .section-tarifa input::placeholder {
         color: #fff;
     }
-    
+
     .section-tarifa i {
         width: 40px;
         display: inline-block;
     }
-    
+
     .section-tarifa input:focus {
         border-color: #fff;
         box-shadow: none;
     }
-    
+
     div#map {
         width: 100%;
         height: 60vh;
@@ -197,46 +217,46 @@ TARIFA
 FOOTER
 ==================
 */
-    
+
     footer {
         background-color: #2B2B2B;
         padding: 20px 0;
         font-size: 1.5rem;
     }
-    
+
     .footer-logo {
         border-bottom: 1px solid white;
         padding-bottom: 2%;
     }
-    
+
     .footer-menu {
         padding: 2% 0;
     }
-    
+
     .footer-menu li {
         padding: 10px 0;
     }
-    
+
     .footer-legal {
         border-top: 1px solid white;
         padding-top: 2%;
     }
-    
+
     .social-media {
         position: relative;
         top: 20px;
         left: 10px;
     }
-    
+
     .social-media li {
         display: inline-block;
         padding-left: 7px;
     }
-    
+
     .app-store {
         padding-top: 50px;
     }
-    
+
     .h-0 {
         height: 25px;
     }
@@ -246,7 +266,7 @@ MEDIA
 ==================
 */
     /*Media MOBILE*/
-    
+
     @media (max-width: 748px) {
         .conduce {
             height: 50vh;
@@ -255,9 +275,10 @@ MEDIA
         .conduce-info {
             height: 50vh;
         }
+
     }
     /*Media DESKTOP*/
-    
+
     @media (min-width:748px) {
         .hero {
             background-position-y: -1325px;
