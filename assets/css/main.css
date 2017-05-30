@@ -51,7 +51,7 @@ NAVBAR
 */
     /*
 ==================
-NAVBAR
+HERO
 ==================
 */
     
@@ -106,6 +106,30 @@ NAVBAR
         margin-top: 60px;
         font-weight: 800;
         font-size: 2.3rem;
+    }
+    /*
+==================
+CONDUCE
+==================
+*/
+    
+    .general-informacion {
+        background-color: #F7B617;
+        padding: 10px;
+    }
+    
+    .borde {
+        border: 1px solid #fff;
+        margin: 30px;
+    }
+    
+    .celular {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .text-inicial {
+        padding: 30px;
     }
     /*
 ==================
