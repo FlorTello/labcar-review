@@ -30,3 +30,50 @@ GENERAL
     .gray {
         color: #333;
     }
+    /*
+==================
+CONDUCE
+==================
+*/
+    
+    .conduce {
+        background-image: url("../images/conduce.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 65vh;
+    }
+    
+    .conduce-info {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 65vh;
+        padding: 80px 0 20px 35px;
+    }
+    
+    @media (min-width: 751px) {
+        .conduce {
+            background-position-y: -200px;
+        }
+    }
+    
+    @media (max-width: 750px) {
+        .conduce {
+            height: 50vh;
+            background-position-y: 0;
+        }
+        .conduce-info {
+            height: 50vh;
+        }
+    }
+    
+    .conduce h2 {
+        font-size: 2.5rem;
+    }
+    
+    .conduce p {
+        font-size: 1.9rem;
+        margin-bottom: 20px;
+    }
+    
+    .conduce button {
+        padding: 12px 20px;
+    }
