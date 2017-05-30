@@ -4,29 +4,55 @@
 GENERAL
 ==================
 */
-    
+
     html {
         font-family: 'Open Sans', 'Raleway', sans-serif;
         box-sizing: border-box;
         overflow: auto;
     }
-    
+
     .o-s {
         font-family: 'Open Sans', sans-serif;
     }
-    
+
     .rale {
         font-family: 'Raleway', sans-serif;
     }
-    
+
     .bold-text {
         font-weight: bolder;
     }
-    
+
     .white {
         color: #fff;
     }
-    
+
     .gray {
         color: #333;
     }
+    /*NAVBAR*/
+    header nav {
+      height: 60px;
+    }
+    .mr-15{
+      margin-left: 15px;
+    }
+    .flex-logo{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0 10px;
+    }
+    .hamburger-icon{
+      font-size: 21px;
+      border:0px;
+    }
+
+@media (min-width: 320px) and (max-width: 428px) {
+  nav .container .navbar-header .flex-logo  img{
+    height: 24px;
+  }
+  .size-height{
+    height: 59px;
+  }
+}
