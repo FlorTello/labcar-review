@@ -63,22 +63,6 @@ CONDUCE
         padding: 80px 0 20px 35px;
     }
     
-    @media (min-width: 751px) {
-        .conduce {
-            background-position-y: -200px;
-        }
-    }
-    
-    @media (max-width: 750px) {
-        .conduce {
-            height: 50vh;
-            background-position-y: 0;
-        }
-        .conduce-info {
-            height: 50vh;
-        }
-    }
-    
     .conduce h2 {
         font-size: 2.5rem;
     }
@@ -120,4 +104,89 @@ TARIFA
     div#map {
         width: 100%;
         height: 60vh;
+    }
+    /*
+==================
+FOOTER
+==================
+*/
+    
+    footer {
+        background-color: #2B2B2B;
+        padding: 20px 0;
+        font-size: 1.5rem;
+    }
+    
+    .footer-logo {
+        border-bottom: 1px solid white;
+        padding-bottom: 2%;
+    }
+    
+    .footer-menu {
+        padding: 2% 0;
+    }
+    
+    .footer-menu li {
+        padding: 10px 0;
+    }
+    
+    .footer-legal {
+        border-top: 1px solid white;
+        padding-top: 2%;
+    }
+    
+    .social-media {
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+    
+    .social-media li {
+        display: inline-block;
+        padding-left: 7px;
+    }
+    
+    .app-store {
+        padding-top: 50px;
+    }
+    
+    .h-0 {
+        height: 25px;
+    }
+    /*
+==================
+MEDIA
+==================
+*/
+    /*Media MOBILE*/
+    
+    @media (max-width: 748px) {
+        .conduce {
+            height: 50vh;
+            background-position-y: 0;
+        }
+        .conduce-info {
+            height: 50vh;
+        }
+    }
+    /*Media DESKTOP*/
+    
+    @media (min-width:748px) {
+        .app-store {
+            min-height: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .social-media {
+            position: relative;
+            top: 30px;
+            left: -35px;
+            min-height: 330px;
+            display: flex;
+            align-items: flex-end;
+        }
+        .conduce {
+            background-position-y: -200px;
+        }
     }
