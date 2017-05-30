@@ -13,13 +13,41 @@
 </head>
 
 <body>
-
     <section id="conduce" class="conduce container-fluid o-s">
         <div class="row">
             <div class="col-md-4 col-md-push-8 col-xs-12 conduce-info">
                 <h2 class="rale white bold-text">Conduce cuando quieras</h2>
                 <p class="white">LabCar es una opción flexible para <br class="visible-xs">alcanzar tus metas financieras.</p>
                 <button type="button" class="btn btn-warning btn-lg bold-text" name="button">Conviértete en conductor</button>
+            </div>
+        </div>
+    </section>
+    <section class="section-tarifa section white bg-yellow o-s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="rale bold-text">Tarifas</h3>
+                    <p>Consulta de tarifas LabCar aquí</p><br>
+                    <form action="" class="text-center">
+                        <div class="form-group text-left">
+                            <i class="glyphicon glyphicon-record"></i>
+                            <input type="text" class="form-control bg-yellow white" id="text-partida" placeholder="Ingrese su punto de partida" required="">
+                        </div><br>
+                        <div class="form-group text-left">
+                            <i class="glyphicon glyphicon-send"></i>
+                            <input type="text" class="form-control bg-yellow white" id="text-llegada" placeholder="Ingrese su llegada" required="">
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default text-uppercase rale bold-text" id="calcular">¡trazar ruta!</button>
+                        </div>
+                        <h2 class="gray" id="tarifa"></h2>
+                    </form>
+                </div>
+                <div class="col-lg-5  col-lg-offset-2 hidden-xs border-white">
+                    <div class="map" id="map">
+                        <!-- Aqui se incluye el API de Google Maps -->
+                    </div>
+                </div>
             </div>
         </div>
     </section>

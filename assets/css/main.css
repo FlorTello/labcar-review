@@ -30,6 +30,20 @@ GENERAL
     .gray {
         color: #333;
     }
+    
+    .bg-yellow {
+        background-color: #F7B617;
+    }
+    
+    .border-white {
+        padding: 10px;
+        border: solid 1px #fff;
+    }
+    
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     /*
 ==================
 CONDUCE
@@ -76,4 +90,34 @@ CONDUCE
     
     .conduce button {
         padding: 12px 20px;
+    }
+    /*
+==================
+TARIFA
+==================
+*/
+    
+    .section-tarifa input {
+        width: 80%;
+        display: inline-block;
+        border-color: #fff;
+    }
+    
+    .section-tarifa input::placeholder {
+        color: #fff;
+    }
+    
+    .section-tarifa i {
+        width: 40px;
+        display: inline-block;
+    }
+    
+    .section-tarifa input:focus {
+        border-color: #fff;
+        box-shadow: none;
+    }
+    
+    div#map {
+        width: 100%;
+        height: 60vh;
     }
